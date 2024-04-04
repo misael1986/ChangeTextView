@@ -11,7 +11,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val button = findViewById<Button>(R.id.button)
+
         val textView = findViewById<TextView>(R.id.textView)
+
         var contador=0;
 
         button.setOnClickListener{
